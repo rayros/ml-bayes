@@ -1,0 +1,18 @@
+{
+  "name": "ml-bayes",
+  "version": "1.0.2",
+  "description": "Naive Bayes Document Classification Algorithm",
+  "main": "./lib/bayes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "naive",
+    "bayes",
+    "categorize",
+    "classify",
+    "classifier"
+  ],
+  "author": "Paweł Łaski <zniwus@gmail.com> (http://rayros.github.io/)",
+  "license": "ISC"
+}
