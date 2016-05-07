@@ -1,6 +1,6 @@
 {
   "name": "ml-bayes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Naive Bayes Document Classification Algorithm",
   "main": "./lib/bayes",
   "scripts": {
