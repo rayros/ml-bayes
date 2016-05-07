@@ -1,0 +1,28 @@
+{
+  "name": "ml-bayes",
+  "description": "Naive Bayes Document Classification Algorithm",
+  "main": "./lib/bayes",
+  "authors": [
+    "Paweł Łaski <zniwus@gmail.com> (http://rayros.github.io/)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "naive",
+    "bayes",
+    "categorize",
+    "classify",
+    "classifier"
+  ],
+  "homepage": "https://github.com/rayros/ml-bayes",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
