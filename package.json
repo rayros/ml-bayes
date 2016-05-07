@@ -18,5 +18,9 @@
     "classifier"
   ],
   "author": "Paweł Łaski <zniwus@gmail.com> (http://rayros.github.io/)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
+  }
 }
