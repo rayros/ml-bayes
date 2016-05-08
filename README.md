@@ -1,6 +1,8 @@
 ml-bayes
 ========
 
+The Naive Bayesian classifier is based on Bayes’ theorem with independence assumptions between predictors. A Naive Bayesian model is easy to build, with no complicated iterative parameter estimation which makes it particularly useful for very large datasets. Despite its simplicity, the Naive Bayesian classifier often does surprisingly well and is widely used because it often outperforms more sophisticated classification methods.
+
 ## Install
 ```bash
 npm install --save ml-bayes
@@ -21,4 +23,17 @@ var scores = langBayes.guess('Pomimo ich naiwnego projektowania i bardzo uproszc
 var winner = langBayes.extractWinner(scores);
 console.log(winner);
 // Object {label: "Polish", score: 0.9999981183271176}
+```
+
+## API
+
+### `new Bayes([options])`
+
+```js
+var Bayes = require('ml-bayes');
+var bayes = new Bayes();
+var bayes2 = new Bayes({
+    log: function() { console.log.apply(console, arguments); },
+    tokenize: function(text) { return text.split(' '); }
+});
 ```
