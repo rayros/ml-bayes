@@ -3,7 +3,7 @@ ml-bayes
 
 ## Install
 ```bash
-npm install ml-bayes
+npm install --save ml-bayes
 ```
 
 ## Usage in node.js
